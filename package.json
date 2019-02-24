@@ -1,0 +1,30 @@
+{
+  "name": "liri-node-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "dotenv": "^6.2.0",
+    "env": "0.0.2",
+    "moment": "^2.24.0",
+    "node-spotify-api": "^1.0.7",
+    "save": "^2.3.3",
+    "spotify": "^0.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adventuroussheep/liri-node-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adventuroussheep/liri-node-app/issues"
+  },
+  "homepage": "https://github.com/adventuroussheep/liri-node-app#readme"
+}
