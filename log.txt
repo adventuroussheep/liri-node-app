@@ -1,1 +1,85 @@
-
+﻿Title: Jaws
+Year: 1975
+IMDB Rating: 8.0/10
+RT Rating: 97%
+Country Produced in: USA
+Language: English
+Cast: Roy Scheider, Robert Shaw, Richard Dreyfuss, Lorraine Gary
+Plot: When a killer shark unleashes chaos on a beach resort, it's up to a local sheriff, a marine biologist, and an old seafarer to hunt the beast down.
+~~~~~~~~~~~~~~~~
+Title: The Lord of the Rings: The Fellowship of the Ring
+Year: 2001
+IMDB Rating: 8.8/10
+RT Rating: 91%
+Country Produced in: New Zealand, USA
+Language: English, Sindarin
+Cast: Alan Howard, Noel Appleby, Sean Astin, Sala Baker
+Plot: A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring and save Middle-earth from the Dark Lord Sauron.
+~~~~~~~~~~~~~~~~
+Title: Jaws
+Year: 1975
+IMDB Rating: 8.0/10
+RT Rating: 97%
+Country Produced in: USA
+Language: English
+Cast: Roy Scheider, Robert Shaw, Richard Dreyfuss, Lorraine Gary
+Plot: When a killer shark unleashes chaos on a beach resort, it's up to a local sheriff, a marine biologist, and an old seafarer to hunt the beast down.
+~~~~~~~~~~~~~~~~
+Title: The Lord of the Rings: The Fellowship of the Ring
+Year: 2001
+IMDB Rating: 8.8/10
+RT Rating: 91%
+Country Produced in: New Zealand, USA
+Language: English, Sindarin
+Cast: Alan Howard, Noel Appleby, Sean Astin, Sala Baker
+Plot: A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring and save Middle-earth from the Dark Lord Sauron.
+~~~~~~~~~~~~~~~~
+Title: Mr. Nobody
+Year: 2009
+IMDB Rating: 7.8/10
+RT Rating: 67%
+Country Produced in: Belgium, Germany, Canada, France, USA, UK
+Language: English, Mohawk
+Cast: Jared Leto, Sarah Polley, Diane Kruger, Linh Dan Pham
+Plot: A boy stands on a station platform as a train is about to leave. Should he go with his mother or stay with his father? Infinite possibilities arise from this decision. As long as he doesn't choose, anything is possible.
+~~~~~~~~~~~~~~~~
+Artist: Slayer
+Venue name: Brisbane Riverstage 
+Location: Brisbane, Australia
+Line up: 03/07/2019
+~~~~~~~~~~~~~~~~
+Artist: Chance The Rapper
+Venue name: Gärdet
+Location: Stockholm, Sweden
+Line up: 06/28/2019
+~~~~~~~~~~~~~~~~
+Artist: "Adele"
+Song: "Hello"
+Preview Link: "https://p.scdn.co/mp3-preview/0b90429fd554bad6785faa2b8931d613db4a0ee4?cid=fce87c8498844df3aead23f6badbd8f5"
+Album: "25"
+~~~~~~~~~~~~~~~~
+Artist: "Queen"
+Song: "Bohemian Rhapsody - Remastered 2011"
+Preview Link: No preview avaliable.
+Album: "A Night At The Opera (Deluxe Remastered Version)"
+~~~~~~~~~~~~~~~~
+Artist: "Ace of Base"
+Song: "The Sign"
+Preview Link: "https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=fce87c8498844df3aead23f6badbd8f5"
+Album: "The Sign (US Album) [Remastered]"
+~~~~~~~~~~~~~~~~
+Artist: "Backstreet Boys"
+Song: "I Want It That Way"
+Preview Link: "https://p.scdn.co/mp3-preview/e72a05dc3f69c891e3390c3ceaa77fad02f6b5f6?cid=fce87c8498844df3aead23f6badbd8f5"
+Album: "The Hits--Chapter One"
+~~~~~~~~~~~~~~~~
+Artist: "Ace of Base"
+Song: "The Sign"
+Preview Link: "https://p.scdn.co/mp3-preview/4c463359f67dd3546db7294d236dd0ae991882ff?cid=fce87c8498844df3aead23f6badbd8f5"
+Album: "The Sign (US Album) [Remastered]"
+~~~~~~~~~~~~~~~~
+Artist: Slayer
+Venue name: Brisbane Riverstage 
+Location: Brisbane, Australia
+Date: 03/07/2019
+~~~~~~~~~~~~~~~~

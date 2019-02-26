@@ -11,12 +11,17 @@ var spotify = new Spotify(keys.spotify);
 var userInput = process.argv[2];
 var userSearch = process.argv.slice(3);
 
-// ,null,2 +"\n"
+// For bands in town API
+var userString = userSearch.join("%20");
+
 
 // OMDB call 
-// Hide API Key
 var omdbCall = function() {
-  axios.get("http://omdbapi.com/?t=" + userSearch + "&apikey=7a97b916&").then(
+  
+    if(userSearch.length == 0 || userSearch == null){
+        userSearch = "Mr Nobody";
+    }
+  axios.get("http://omdbapi.com/?t=" + userSearch + "&apikey=trilogy").then(
     function(response) {
       console.log("Title: " + response.data.Title);
       console.log("Year: " + response.data.Year);
@@ -37,35 +42,35 @@ var omdbCall = function() {
 
 
 // Bands in Town API 
-//  fix multi argv and no concert found
 var bandCall = function() {
   axios
     .get(
       "https://rest.bandsintown.com/artists/" +
-        userSearch +
+        userString +
         "/events?app_id=codingbootcamp"
     )
     .then(function(response) {
-        console.log("Line up: "+response.data[0].lineup);
-        console.log("Venue name: "+response.data[0].venue.name);
-        console.log("Location: "+response.data[0].venue.city +", "+ response.data[0].venue.country);
-        venueDate = response.data[0].datetime;
-        formatDate = moment(venueDate).format("MM/DD/YYYY");
-        console.log("Line up: "+formatDate);
-        console.log("~~~~~~~~~~~~~~~~");
-    });
+        if(response.data[0].lineup === undefined){
+            console.log("No information available.")
+        }else{
 
+            console.log("Artist: "+response.data[0].lineup);
+            console.log("Venue name: "+response.data[0].venue.name);
+            console.log("Location: "+response.data[0].venue.city +", "+ response.data[0].venue.country);
+            venueDate = response.data[0].datetime;
+            formatDate = moment(venueDate).format("MM/DD/YYYY");
+            console.log("Date: "+formatDate);
+            console.log("~~~~~~~~~~~~~~~~");
+        }     
+    });
 };
 
 
-
 // Spotify API
-// API Complete
 var spotifySong = function(search) {
-    if (search === undefined) {
+    if (search === undefined || search.length == 0) {
       search = "Ace of Base";
     }
-
     spotify.search({ type: "track", query: search, limit: 1 }, function(err,data) {
       
     if (err) {
@@ -75,8 +80,8 @@ var spotifySong = function(search) {
     
     console.log("Song: " + JSON.stringify(data.tracks.items[0].name));
 
-    if (data.tracks.items[0].preview_url === "null") {
-        console.log("No preview avaliable.");
+    if (data.tracks.items[0].preview_url === null) {
+        console.log("Preview Link: No preview avaliable.");
     } else {
         console.log("Preview Link: " + JSON.stringify(data.tracks.items[0].preview_url));
         } 
